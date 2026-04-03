@@ -1,22 +1,59 @@
-.window-buttongroup button.window-minimize{
-    background-image: url("./images/minimize_dark.png");
+.maximized, .native {
+  border-width: 0;
 }
-.window-buttongroup button.window-minimize:hover{
-    background-image: url("./images/minimize_hover_dark.png");
+ .window-buttongroup {
+padding-right: 0;
+padding-top: 5px;
 }
-
-
-.window-buttongroup button.window-maximize{
-    background-image: url("./images/maximize_dark.png");
+ .window-buttongroup > button {
+background-color: transparent;
+width: 16px !important;
+height: 16px !important;
+background-color: transparent !important;
+margin-right: 5px;
 }
-.window-buttongroup button.window-maximize:hover{
-    background-image: url("./images/maximize_hover_dark.png");
+ .window-buttongroup > button:hover {
+background-image: transparent !important;
 }
-
-
-.window-buttongroup button.window-close{
-  background-image: url("./images/close_dark.png");
+ .window-buttongroup > button svg {
+display: none;
 }
-.window-buttongroup button.window-close:hover{
-  background-image: url("./images/close_dark_hover.png");
+ .window-buttongroup > button.window-minimize {
+background-image: url("./images/minimize.png");
+background-size: cover;
+}
+ .window-buttongroup > button.window-minimize:hover {
+background-image: url("./images/minimize_hover.png");
+}
+ .window-buttongroup > button.window-maximize {
+background-image: url("./images/maximize.png");
+background-size: cover;
+}
+ .window-buttongroup > button.window-maximize:hover {
+background-image: url("./images/maximize_hover.png");
+}
+ .window-buttongroup > button.window-close {
+background-image: url("./images/close.png");
+background-size: cover;
+}
+ .window-buttongroup > button.window-close:hover {
+background-image: url("./images/close_hover.png");
+}
+ .window-buttongroup > button.window-minimize {
+background-image: url("./images/minimize_dark.png");
+}
+ .window-buttongroup > button.window-minimize:hover {
+background-image: url("./images/minimize_hover_dark.png");
+}
+ .window-buttongroup > button.window-maximize {
+background-image: url("./images/maximize_dark.png");
+}
+ .window-buttongroup > button.window-maximize:hover {
+background-image: url("./images/maximize_hover_dark.png");
+}
+ .window-buttongroup > button.window-close {
+background-image: url("./images/close_dark.png");
+}
+ .window-buttongroup > button.window-close:hover {
+background-image: url("./images/close_dark_hover.png");
 }
