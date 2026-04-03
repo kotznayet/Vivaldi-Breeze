@@ -1,6 +1,3 @@
-Icons adapted from https://github.com/vinceliuice/Tela-icon-theme or designed from scratch.
-
-
 GNU LESSER GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
